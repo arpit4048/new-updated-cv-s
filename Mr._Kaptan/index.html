@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio | Mr. Kaptan</title>
+    <style>
+        .navbar-container {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin-bottom: 30px;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 80%;
+            background-color: #304cfd;
+            border-radius: 50px;
+            padding: 10px 20px;
+            box-sizing: border-box;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar a {
+            color: white !important;
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.3s;
+            padding: 5px 10px;
+            font-size: 0.9em;
+        }
+
+        .navbar a:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container flex">
+        <input type="checkbox" id="check">
+        <label for="check" class="icon" id="icons">
+            <i class="fa-sharp fa-solid fa-bars-staggered" id="menu-icon" style="color: #ffffff;"></i>
+            <i class="fa-solid fa-xmark" id="closed-icon" style="color: #ffffff;"></i>
+        </label>
+        <div class="rp-navbar">
+            <a href="index.html">About</a>
+            <a href="teaching.html">Teaching</a>
+            <a href="publish.html">Publish</a>
+        </div>
+        <div class="left-container flex">
+            <div class="left-above flex">
+                <div class="image"></div>
+                <ul>
+                    <li>
+                        <h4 id="name">Mr. KAPTAN</h4>
+                    </li>
+                    <li class="designation">ASSISTANT PROFESSOR</li>
+                </ul>
+            </div>
+            <div class="left-below">
+                <ul>
+                    <li><i class="fa-solid fa-building-columns"></i>Ram Lal Anand College, University of Delhi</li>
+                    <li><i class="fa-solid fa-envelope"></i>Kaptan.polsc@rla.du.ac.in</li>
+                    <li><i class="fa-solid fa-mobile"></i>9873661532</li>
+                    <li><i class="fa-solid fa-location-dot"></i>Ram Lal Anand College, University of Delhi, New Delhi
+                    </li>
+                </ul>
+                <div class="download">
+                    <a href="Kaptan.pdf" id="download-link">
+                        <h4><i class="fa-solid fa-download"></i>Download CV</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="navbar-container">
+                <label for="nav-check" class="navbar">
+                    <a href="index.html">About</a>
+                    <a href="teaching.html">Teaching</a>
+                    <a href="publish.html">Publish</a>
+                </label>
+            </div>
+            <div class="content">
+                <h1>About</h1>
+                <hr>
+                <h3>Career Profile</h3>
+                <ul>
+                    <li><i class="fa-solid fa-angles-right" style="color: #304cfd;"></i>Working as <b>Assistant
+                            Professor</b> in Ram Lal Anand College since 20/04/2023 [cite: 1171]</li>
+                    <li><i class="fa-solid fa-angles-right" style="color: #304cfd;"></i>Formerly worked as <b>Assistant
+                            Professor</b> in Lakshmibai College, University of Delhi (2015 - 18/04/2023) [cite: 1171]
+                    </li>
+                </ul>
+            </div>
+            <div class="content1">
+                <h3>Educational Qualifications</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Degree</th>
+                            <th>Institution</th>
+                            <th>Year</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>PhD</td>
+                            <td class="table">School of International Studies, JNU</td>
+                            <td>Pursuing</td>
+                        </tr>
+                        <tr>
+                            <td>MPhil</td>
+                            <td class="table">School of International Studies, JNU</td>
+                            <td>2010 [cite: 1168]</td>
+                        </tr>
+                        <tr>
+                            <td>MA</td>
+                            <td class="table">School of International Studies, JNU</td>
+                            <td>2007 [cite: 1168]</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="main-interest">
+                <h3>Areas of Interest / Specialization</h3>
+                <ul class="flex interest">
+                    <li class="inte">International Relations</li>
+                    <li class="inte">Global Politics</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="java.js"></script>
+</body>
+
+</html>
