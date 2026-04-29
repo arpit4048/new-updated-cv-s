@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio | Mr. Deepak Setia</title>
+    <style>
+        /* Ensuring the navigation bar is perfectly centered and elegant */
+        .navbar-container {
+            display: flex;
+            justify-content: center;
+            /* Centers the bar horizontally */
+            width: 100%;
+            margin-bottom: 30px;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 80%;
+            /* Adjusted width for a more elegant, centered look */
+            background-color: #304cfd;
+            border-radius: 50px;
+            padding: 10px 20px;
+            box-sizing: border-box;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar a {
+            color: white !important;
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.3s;
+            padding: 5px 10px;
+        }
+
+        .navbar a:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container flex">
+        <input type="checkbox" id="check">
+        <label for="check" class="icon" id="icons">
+            <i class="fa-sharp fa-solid fa-bars-staggered" id="menu-icon" style="color: #ffffff;"></i>
+            <i class="fa-solid fa-xmark" id="closed-icon" style="color: #ffffff;"></i>
+        </label>
+
+        <div class="rp-navbar">
+            <a href="index.html">About</a>
+            <a href="teaching.html">Teaching</a>
+            <a href="publish.html">Publish</a>
+            <a href="pre.html">Presentation</a>
+            <a href="others.html">Others</a>
+        </div>
+
+        <div class="left-container flex">
+            <div class="left-above flex">
+                <div class="image"></div>
+                <ul>
+                    <li>
+                        <h4 id="name">Mr. Deepak Setia</h4>
+                    </li>
+                    <li class="designation">ASSISTANT PROFESSOR</li>
+                </ul>
+            </div>
+            <div class="left-below">
+                <ul>
+                    <li><i class="fa-solid fa-building-columns"></i>Ram Lal Anand College, University of Delhi</li>
+                    <li><i class="fa-solid fa-envelope"></i>deepak.Polsc@rla.du.ac.in</li>
+                    <li><i class="fa-solid fa-mobile"></i>8851217516</li>
+                    <li><i class="fa-solid fa-location-dot"></i>Ram Lal Anand College, University of Delhi, New Delhi
+                    </li>
+                </ul>
+                <div class="download">
+                    <a href="Deepak Setia-Profile.pdf" id="download-link">
+                        <h4><i class="fa-solid fa-download"></i>Download CV</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-container">
+            <div class="navbar-container">
+                <label for="nav-check" class="navbar">
+                    <a href="index.html">About</a>
+                    <a href="teaching.html">Teaching</a>
+                    <a href="publish.html">Publish</a>
+                    <a href="pre.html">Presentation</a>
+                    <a href="others.html">Others</a>
+                </label>
+            </div>
+
+            <div class="content">
+                <h1>About</h1>
+                <hr>
+                <h3>Career Profile</h3>
+                <ul>
+                    <li><i class="fa-solid fa-angles-right" style="color: #304cfd;"></i><b>Present Position:</b>
+                        Assistant Professor, Department of Political Science, Ram Lal Anand College (University of
+                        Delhi)</li>
+                    <li><i class="fa-solid fa-angles-right" style="color: #304cfd;"></i><b>Former Position:</b>
+                        Assistant Professor (Guest), Department of Political Science, Zakir Husain College(Morning)
+                        (University of Delhi)</li>
+                </ul>
+            </div>
+
+            <div class="content1">
+                <h3>Educational Qualifications</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Degree</th>
+                            <th>Institution</th>
+                            <th>Year</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Ph.D</td>
+                            <td class="table">Department of African Studies (Delhi University)</td>
+                            <td>2022 - Pursuing</td>
+                        </tr>
+                        <tr>
+                            <td>M.Phil</td>
+                            <td class="table">Department of African Studies (Delhi University)</td>
+                            <td>2021</td>
+                        </tr>
+                        <tr>
+                            <td>MA</td>
+                            <td class="table">Department of Political Science (Rajasthan University)</td>
+                            <td>2016</td>
+                        </tr>
+                        <tr>
+                            <td>B.A Prog.</td>
+                            <td class="table">Kirorimal College</td>
+                            <td>2013</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="main-interest">
+                <h3>Areas of Interest / Specialization</h3>
+                <ul class="flex interest">
+                    <li class="inte">International Relations</li>
+                    <li class="inte">Indian Government and Politics</li>
+                    <li class="inte">Indo African Relation</li>
+                    <li class="inte">Indian Politics & India's Foreign Policy</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="java.js"></script>
+</body>
+
+</html>
